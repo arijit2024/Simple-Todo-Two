@@ -1,0 +1,41 @@
+#input{
+    width: 450px;
+}
+.btn{
+    border-Radius: 8px;
+    font-Weight: bold;
+    background-color: rgb(8, 8, 8);
+    border: 1px solid red;
+}
+body{
+    background-color: rgb(214, 210, 232);
+}
+.form-control:focus {
+    border-color: #000000;
+    box-shadow: 0 0 0 0.2rem rgba(165, 40, 167, 0.25);
+} 
+.mainDivTodoList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.todo-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.todo-text {
+    margin: 0;
+}
